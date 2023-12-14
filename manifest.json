@@ -7,10 +7,11 @@
   "name": "daniel",
   "short_name": "dan",
 
-  "icons": [
+  "icon": [
     {
       "src": "sarah.svg",
-      "sizes": "any"
+      "sizes": "any",
+      "type": "svg"
     }
   ]
 }
