@@ -3,7 +3,7 @@ self.addEventListener("install", (event) => {
 		caches
 			.open("v1")
 			.then((cache) => {
-				cache.addAll(["./", "./style.css", "./logic.js"]);
+				cache.addAll(["./", "./style.css", "./app.js"]);
 				console.log("Assets cached");
 			})
 			.catch((err) => console.log("could not cache assets"))
