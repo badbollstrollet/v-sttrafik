@@ -1,11 +1,52 @@
+@import url(https://seetee.github.io/bp/reset/main.css);
+@import "https://unpkg.com/open-props";
+
 body {
-    background-color: #dba36a;
-  }
+  background-color: var(--orange-3);
+  display: grid;
+}
 
-  h1 {
-  
-    font-size: 12vh;
-    
-    }
+h1, h2, h3 {
+  text-wrap: pretty;
+  line-height: var(--font-lineheight-3);
+  font-weight: var(--font-weight-7);
+  font-family: var(--font-sans);
+  color: var(--gray-10);
+}
 
-    
+h1 {  
+  font-size: var(--font-size-fluid-3);  
+}
+
+h2 {
+  font-size: var(--font-size-fluid-2);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding: var(--size-fluid-2);
+}
+
+main {
+  max-width: 90vw;
+  place-self: center;
+}
+
+section {
+  border-radius: var(--radius-2);
+  margin-block-end: var(--size-fluid-3);
+  padding: var(--size-fluid-3);
+  box-shadow: var(--shadow-2);
+  background: var(--gray-1);
+  aspect-ratio: var(--ratio-widescreen);
+  animation:
+    var(--animation-shake-y),
+    var(--animation-fade-in),
+    var(--animation-slide-in-left);
+}
+
+p {
+  max-width: 80ch;
+  font-size: var(--font-size-fluid-1);
+}
