@@ -11,7 +11,7 @@
     {
       "src": "sarah.svg",
       "sizes": "any",
-      "type": "svg",
+      "type": "image/svg",
       "purpose": "any maskable"
     }
   ]
